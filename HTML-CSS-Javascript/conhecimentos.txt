@@ -1,0 +1,69 @@
+<!--Esse é um comentario-->
+<br/>Quebra de Linnha<!--Break Row-->
+<img src="img.png"<!--IMG Source--> alt="Google Glass" <!--Nome caso IMG corrompa aparece no lugar-->
+<!--&nbsp serve para colocar espaços, Sigla para Non-Breaking Space-->
+<!--<wbr/>para quebra de linhas grandes quando o site for "arrastado" e &shy;tag html5 para fazer a mesma coisa colocano - para separar-->
+<!--Formatano com CSS Individualmente-->
+<!--<AlgumaTag style="algumparamtro:algumacoisa;outropramtro:outracoisa">Palavra</AlgumaTag>
+<!--exemplo-->
+<p style="text-align:justify;text-indent:50px">Paragrafozinho</p>
+<!--Formatando com CSS globalmente no Head - Exemplo-->
+<head>
+	
+<meta charset="UTF-8"/>
+	
+<title>Tudo sore Google Glass</title>
+	
+<style>
+
+p{
+	
+text-align:justify;
+	
+text-indent:50px;
+	
+}
+	
+</style>
+
+</head>
+<pre><!--Para deixar pré formatado-->
+<code><!--Para formatar codigo-->
+</code>
+</pre>
+
+/*Comentarios CSS*/
+/*Linkando arquivo CSS*/
+<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+
+/*ordem da formatação alinhada - Exemplo*/
+box-shadow: 1px 1px 4px black;
+/*parametro: horizontal vertical espalhamento cor*/
+
+/*no CSS color é cor da letra e background-color é autoexplicativo..*/
+
+/*rgba(0,0,0,1) forma de dar cores como red green blue e alpha para transparencia*/
+
+<ol type="I" start="15">
+<!--Start em Num normal msm para type diferente-->		<li>Home</li>
+		<li>Especificações</li>
+		<li>Fotos</li>
+		<li>Multimídia</li>
+		<li>Fale conosco</li>
+	</ol>
+
+/*padding é o espaço dentro do objeto e margin é o espaço fora do objeto*/
+
+/*position: relative o objeto fica preso dentro do container pertencente, position: absulute o objeto fica livre pelo site*/
+
+/*tag:hover para editar algo a se fazer quano passar o mouse*/
+
+/*div#id div.class - autoexplicativo...*/
+
+/*ordem da margin ou padding cima direita baixo esquerda.
+dica1: funciona no sentido horario.
+dica2: se quizer colocar todos os lados do mesmo tamanho so é necessario colocar uma vez, Exemplo: padding: 10px 10px 10px; é o mesmo que usar somente padding: 10px;*/
+
+/*Criando tabela*/<!--<td rowspan"ocuparlinhas">
+<table><tr rowspan="2"><td></td></tr></table>
+<td colspan "espandeacoluna">-->
